@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Mi primera Web</title>
+</head>
+<body>
+    <!--Los eading son Titulos o Subtitulos mas no contenidos-->
+    <!--Hay un maximo de 6 tipos de titulos-->
+
+    <h1>Mi primer Heading</h1>
+    <h2>Mi segundo Heading</h2>
+    <h3>Mi Tercer Heading</h3>
+    <h4>Mi Cuarto Heading</h4>
+    <h5>Mi Quinto Heading</h5>
+    <h6>Goku os da el camino de la vida</h6>
+    <!--Parrafo <p>-->
+    <p>Si el camino de la vida os encamina a hacer buenos actos, astente de ir por ese camino, pues ese camino sera mediocre</p>
+    <!--para hacer espacios simplemente se separan con la misma etiqueta <p>-->
+    <p>La avaricia es lo que manda en el corazon de los fuertes, pues un alma fuerte y con caracter no existira con lo necesario</p>
+    <!--El elemento HTML <hr> representa un cambio de tema entre párrafos (por ejemplo, un cambio de escena en una historia, un cambio de tema en una sección).-->
+    <hr>
+    <h2>Nueva seccion o tema</h2>
+    <p>En este camino sin rumbo fijo solo el pasado guiara tu futuro</p> 
+    <!--<span> - abarcar. Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea.-->
+    <hr>
+    <h2>Frase epica</h2>
+    <p>Si de un mounstruo se levantara quien podria matar al mounstruo <span style="color:brown"> pero sin dejar de ser humano</span></p> 
+    <!--<br> Salto de linea-->
+    <hr>
+    <h2>Frase que aparece en <span style="color:blue">Monster</span></h2>
+    Después vi otra bestia que subía de la tierra;<br> y tenía dos cuernos semejantes a los de un cordero,<br> pero hablaba como un dragón.
+    <!--<a> crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.-->
+    <br>
+    <a href="https://www.youtube.com/watch?v=2MDlKJu3J9M">Despegarla de aqui</a>
+    <br>
+    <a target="_blank" href="https://www.youtube.com/watch?v=2MDlKJu3J9M">Despegarla de aqui en una nueva pestaña</a>
+    <!--<img>  representa una imagen en el documento. Nota: Los navegadores no siempre muestran la imagen a la que el elemento hace referencia.-->
+    <hr>
+    <h1>Imagen</h1>
+
+    <img src="img/5df21d6ed228024a4c80ad3e2b7c43074690135f_hq.jpg" alt="">
+    <br>
+    <!-- Imagen Modificada por tamaño Ancho-->
+    <img src="img/5df21d6ed228024a4c80ad3e2b7c43074690135f_hq.jpg" width="400" alt="">
+    <br>
+    <!-- Imagen Modificada por tamaño Alto-->
+    <img src="img/5df21d6ed228024a4c80ad3e2b7c43074690135f_hq.jpg" height="400" alt="">
+    <br>
+    <!-- Imagen Modificada por tamaño Ancho y alto-->
+    <img src="img/5df21d6ed228024a4c80ad3e2b7c43074690135f_hq.jpg" width="400" height="200" alt="">
+    <br>
+    <!-- Formulario-->
+    <hr>
+    <br>
+    <h1>Formulario</h1>
+    <!-- El elemento HTML form ( <form> ) representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web.-->
+    <form action="">
+        <!-- El Elemento HTML <label> representa una etiqueta para un elemento en una interfaz de usuario. Este puede estar asociado con un control ya sea mediante la utilizacion del atributo for, o ubicando el control dentro del elemento label.-->
+        <!-- La etiquete for y id se utilizan para vincular cierto elemeton como input-->
+        <h2>Formulario con input para torpes</h2>
+        <label for="Nombre"> Nombre </label>
+        <input id="Nombre">
+        <br>
+        <h2>Formulario con input para personas normales</h2>
+        <label> Nombre </label>
+        <input>
+        <br>
+        <!--El atributo placeholder en elementos <input> y <textarea> provee una ayuda a los usuarios acerca de qué debe ser ingresado en el campo.-->
+        <h2>Formulario con guia</h2>
+        <label for="Nombre1">Nombre</label>
+        <input id="Nombre1" name="nombre" placeholder="Nombre">
+        <!-- Tipos de input-->
+        <hr>
+        <h1>Tipos de Formulario</h1>
+        <br>
+        <h3>Formulario tipo 1 "submit" </h3>
+        <label for="Nombre1">Nombre</label>
+        <input type="submit" id="Nombre1" name="nombre">
+        <br>
+        <h3>Formulario tipo 2 "text" </h3>
+        <label for="Nombre1">Nombre</label>
+        <input type="text" id="Nombre1" name="nombre">
+        <br>
+        <h3>Formulario tipo 3 "email" </h3>
+        <label for="Nombre1">Nombre</label>
+        <input type="email" id="Nombre1" name="nombre">
+        <br>
+        <h3>Formulario tipo 3 "password" </h3>
+        <label for="Nombre1">Nombre</label>
+        <input type="password" id="Nombre1" name="nombre">
+        <br>
+        <h3>Formulario tipo 4 "radio" </h3>
+        <label for="Nombre1">Nombre</label>
+        <input type="radio" id="Nombre1" name="nombre">
+        <br>
+        <h3>Formulario tipo 5 "checkbox" </h3>
+        <label for="Nombre1">Nombre</label>
+        <input type="checkbox" id="Nombre1" name="nombre">
+        <br>
+        <h3>Formulario tipo 6 "File" </h3>
+        <label for="Nombre1">Nombre</label>
+        <input type="file" id="Nombre1" name="nombre">
+        <!-- El elemento HTML <textarea> representa un control para la edición mutilínea de texto sin formato.-->
+        <hr>
+        <h1>Comentarios</h1>
+        <textarea name="Comentario" placeholder="Comentario"></textarea>
+        <!-- Dimensionamiento de la casilla Comentario-->
+        <br>
+        <h2>Comentario Ajustado</h2>
+        <textarea name="Comentario" cols="30" rows="10" placeholder="Comentario" ></textarea>
+        <!-- Botones-->
+        <hr>
+        <h1>Botones</h1>
+        <h3>Boton normales</h3>
+        <br>
+        <!-- button: que se usa para crear un botón en el que se puede hacer click sin ningún valor por defecto-->
+        <button type="button">Enviar</button>
+        <!-- reset: crea un botón con el texto del atributo value, al hacer clic sobre el botón se inicializa el formulario con los valores por defecto-->
+        <h3>Boton reset</h3>
+        <button type="reset">Enviar</button>
+        <!-- submit: este atributo especifica el método HTTP que el navegador usará para enviar el formulario.-->
+        <h3>Boton submit</h3>
+        <button type="submit">Enviar</button>
+        <hr>
+        <h1>Listas</h1>
+        <!-- ul: lista no ordenada-->
+        <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+        </ol>   
+        <!-- Para mas tipos de clases se podran encontrar en la siguiente web http://euler.mat.uson.mx/~havillam/curso_html/listas.html-->
+        <hr>
+        <h1>Tablas</h1>
+        <table style="width: 500px;border: 1px solid black;" >
+            <!-- tr: -->
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Tanque</td>
+                <td>60.000</td>
+            </tr>
+        </table>
+
+        
+    </form>
+
+
+</body>
+</html>
